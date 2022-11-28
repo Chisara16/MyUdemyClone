@@ -112,6 +112,97 @@ padding-right: 20px;
     line-height: 20px;
 }
 
+#card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#crd1,
+#crd2,
+#crd3,
+#crd4,
+#crd5{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip{
+    visibility: hidden;
+    width: 300px;
+    margin: -50px 0 0 30px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .p1{
+    color: rgb(58, 100, 58);
+    font-size: small;
+    padding-top: 8px;
+    font-weight: 600;
+}
+
+.tooltip .list1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgb(150, 148, 148);
+    width: 250px;
+    padding: 8px 0;
+    list-style: none;
+}
+
+.tooltip .list2 li{
+    padding: 10px 0 0 20px;
+    list-style: none;
+}
+
+.tooltip .p2,
+.tooltip .list2{
+    font-size: 14px;
+}
+
+#card1 .tooltip .atc,
+#card2 .tooltip .atc,
+#card3 .tooltip .atc,
+#card4 .tooltip .atc,
+#card5 .tooltip .atc,
+#crd1 .tooltip .atc,
+#crd2 .tooltip .atc,
+#crd3 .tooltip .atc,
+#crd4 .tooltip .atc,
+#crd5 .tooltip .atc{
+    color: white;
+    background-color: rgb(185, 81, 185);
+    border: none;
+    padding: 15px;
+    width: 210px;
+    margin-top: 20px;
+}
+
+.tooltip button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#card1:hover .tooltip,
+#card2:hover .tooltip,
+#card3:hover .tooltip,
+#card4:hover .tooltip,
+#card5:hover .tooltip,
+#crd1:hover .tooltip,
+#crd2:hover .tooltip,
+#crd3:hover .tooltip,
+#crd4:hover .tooltip,
+#crd5:hover .tooltip{
+    visibility: visible;
+}
+
+
 .section3{
     margin: 50px 30px 0 30px;
     
